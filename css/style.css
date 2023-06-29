@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+/* IMPOSTAZIONI GENERALI */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.back {
+  background-image: url(../assets/img/sfondo.png);
+}
+/* HEADER */
+header {
+  background-color: rgb(77, 77, 246);
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  margin-inline: 75px;
+}
+/* MAIN */
+main {
+  margin: 30px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-inline: 75px;
+  border: 1px solid;
+}
+article * {
+  margin: 10px;
+}
+.nav {
+  display: inline-block;
+  list-style: none;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
