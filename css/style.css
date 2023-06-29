@@ -1,36 +1,75 @@
 /* IMPOSTAZIONI GENERALI */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-body {
-  font-family: "Poppins", sans-serif;
-}
+
 .back {
   background-image: url(../assets/img/sfondo.png);
 }
 /* HEADER */
 header {
-  background-color: rgb(77, 77, 246);
-  margin: 30px;
-  padding: 30px;
+  background: linear-gradient(to bottom, rgb(0, 153, 204) 20%, rgb(0, 102, 136) 80%);
+  margin-block: 30px;
+  margin-inline: 50px;
+  padding-block: 15px;
   text-align: center;
-  margin-inline: 75px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 /* MAIN */
 main {
-  margin: 30px;
-  padding: 10px;
   background-color: rgb(255, 255, 255);
-  margin-inline: 75px;
+  margin-inline: auto;
+  width: 400px;
   border: 1px solid;
+  font-size: larger;
+  line-height: 1.45;
 }
-article * {
-  margin: 10px;
+.h1 {
+  padding-top: 30px;
 }
 .nav {
-  display: inline-block;
   list-style: none;
 }
+.nav li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+header nav ul li a {
+  color: white;
+  text-align: center;
+}
+header * {
+  padding: 4px;
+  margin: 4px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+.article * {
+  margin: 10px;
+}
+.article {
+  padding-inline: 10px;
+}
+h1 {
+  font-size: xx-large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  line-height: 1.45;
+}
+#info-pub-svg {
+  margin: -3px;
+  margin-right: 2px;
+}
+#clock {
+  margin: -3px;
+  margin-right: 2px;
+}
+.grigio {
+  color: lightgrey;
+  fill: lightgray;
+}
 /* TABELLE */
 
 /* FORM */
